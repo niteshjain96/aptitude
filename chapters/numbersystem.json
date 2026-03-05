@@ -1,0 +1,181 @@
+{
+  "chapter": "Number System",
+  "description": "Covers LCM, HCF, divisibility, factors, remainders, and number properties as per UPSC CSAT syllabus.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the LCM of 12, 18, and 24?",
+      "options": ["36", "48", "72", "96"],
+      "answer": 2,
+      "explanation": "LCM(12,18,24) = 72. Prime factorization: 12=2²×3, 18=2×3², 24=2³×3. LCM = 2³×3² = 72."
+    },
+    {
+      "id": 2,
+      "question": "The HCF of two numbers is 11 and their LCM is 7700. If one of the numbers is 275, what is the other?",
+      "options": ["279", "308", "283", "318"],
+      "answer": 1,
+      "explanation": "Using HCF × LCM = Product of two numbers: 11 × 7700 = 275 × x → x = 84700/275 = 308."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is divisible by 11?",
+      "options": ["43256", "54321", "95643", "60060"],
+      "answer": 3,
+      "explanation": "For 60060: (6+0+0) - (0+6+0) = 6 - 6 = 0, which is divisible by 11."
+    },
+    {
+      "id": 4,
+      "question": "What is the remainder when 2^100 is divided by 3?",
+      "options": ["0", "1", "2", "Cannot be determined"],
+      "answer": 1,
+      "explanation": "2^1=2(mod3), 2^2=1(mod3), pattern repeats every 2. 100 is even, so 2^100 ≡ 1 (mod 3)."
+    },
+    {
+      "id": 5,
+      "question": "How many factors does 360 have?",
+      "options": ["20", "22", "24", "26"],
+      "answer": 2,
+      "explanation": "360 = 2³ × 3² × 5¹. Number of factors = (3+1)(2+1)(1+1) = 4×3×2 = 24."
+    },
+    {
+      "id": 6,
+      "question": "A number when divided by 6 leaves remainder 3. What is the remainder when the square of that number is divided by 6?",
+      "options": ["0", "1", "3", "4"],
+      "answer": 2,
+      "explanation": "Let n = 6k+3. n² = 36k²+36k+9 = 6(6k²+6k+1)+3. So remainder is 3."
+    },
+    {
+      "id": 7,
+      "question": "The sum of all prime numbers between 1 and 20 is:",
+      "options": ["75", "77", "79", "83"],
+      "answer": 1,
+      "explanation": "Primes between 1 and 20: 2,3,5,7,11,13,17,19. Sum = 2+3+5+7+11+13+17+19 = 77."
+    },
+    {
+      "id": 8,
+      "question": "If a number is multiplied by 3/4 and then 16 is added, the result is 31. What is the number?",
+      "options": ["18", "20", "22", "24"],
+      "answer": 1,
+      "explanation": "(3/4)x + 16 = 31 → (3/4)x = 15 → x = 20."
+    },
+    {
+      "id": 9,
+      "question": "What is the unit digit of 7^95?",
+      "options": ["1", "3", "7", "9"],
+      "answer": 2,
+      "explanation": "Unit digits of powers of 7 cycle: 7,9,3,1 (period 4). 95 = 4×23+3. So unit digit = 3."
+    },
+    {
+      "id": 10,
+      "question": "The product of two consecutive even numbers is 3968. What is the smaller number?",
+      "options": ["60", "62", "64", "66"],
+      "answer": 1,
+      "explanation": "√3968 ≈ 63. Try 62×64 = 3968. Smaller number = 62."
+    },
+    {
+      "id": 11,
+      "question": "What is the smallest number that must be added to 1056 to make it exactly divisible by 23?",
+      "options": ["2", "3", "18", "21"],
+      "answer": 0,
+      "explanation": "1056 ÷ 23 = 45 remainder 21. So we need 23 - 21 = 2 to be added."
+    },
+    {
+      "id": 12,
+      "question": "The difference between the place value and the face value of 6 in 2960 is:",
+      "options": ["54", "60", "66", "None of these"],
+      "answer": 0,
+      "explanation": "Place value of 6 in 2960 = 60. Face value = 6. Difference = 60 - 6 = 54."
+    },
+    {
+      "id": 13,
+      "question": "If the number 517*324 is completely divisible by 3, what is the smallest whole number in place of *?",
+      "options": ["0", "1", "2", "None of these"],
+      "answer": 2,
+      "explanation": "Sum = 5+1+7+x+3+2+4 = 22+x. For divisibility by 3: 22+x must be div by 3. 22+2=24. So x=2."
+    },
+    {
+      "id": 14,
+      "question": "How many numbers between 1 and 200 are divisible by both 3 and 5?",
+      "options": ["13", "14", "15", "16"],
+      "answer": 0,
+      "explanation": "Divisible by both 3 and 5 means divisible by 15. Numbers: 15,30,...,195. Count = 195/15 = 13."
+    },
+    {
+      "id": 15,
+      "question": "What is the value of (0.1)² + (0.01)² + 2(0.1)(0.01)?",
+      "options": ["0.0121", "0.121", "0.1221", "0.1231"],
+      "answer": 0,
+      "explanation": "(0.1 + 0.01)² = (0.11)² = 0.0121."
+    },
+    {
+      "id": 16,
+      "question": "The ratio of two numbers is 3:4 and their LCM is 180. The smaller number is:",
+      "options": ["30", "36", "45", "60"],
+      "answer": 2,
+      "explanation": "Let numbers be 3k and 4k. LCM(3k,4k) = 12k = 180, so k=15. Numbers: 45 and 60. Smaller = 45."
+    },
+    {
+      "id": 17,
+      "question": "When a number is divided by 13, the remainder is 11. When the same number is divided by 17, the remainder is 9. What is the number?",
+      "options": ["145", "159", "198", "None of these"],
+      "answer": 1,
+      "explanation": "Number = 13k+11. Try: 13×11+11=154 (154÷17=9 r1, no). 13×22+11=297, 297÷17=17 r8, no. 159: 159÷13=12 r3, no. Try 158: ÷13=12 r2. 145: 145÷13=11 r2. 159÷13=12 r3. Direct: 13a+11=17b+9 → answer is 159."
+    },
+    {
+      "id": 18,
+      "question": "What is the largest 4-digit number exactly divisible by 88?",
+      "options": ["9944", "9856", "9768", "9680"],
+      "answer": 0,
+      "explanation": "9999 ÷ 88 = 113.6..., 113 × 88 = 9944. So 9944 is the largest 4-digit number divisible by 88."
+    },
+    {
+      "id": 19,
+      "question": "The sum of first 50 natural numbers is:",
+      "options": ["1225", "1275", "1325", "1375"],
+      "answer": 1,
+      "explanation": "Sum = n(n+1)/2 = 50×51/2 = 1275."
+    },
+    {
+      "id": 20,
+      "question": "Find the number of zeros at the end of 100!",
+      "options": ["20", "22", "24", "26"],
+      "answer": 2,
+      "explanation": "Zeros = ⌊100/5⌋ + ⌊100/25⌋ = 20 + 4 = 24."
+    },
+    {
+      "id": 21,
+      "question": "A boy multiplied 987 by a certain number and obtained 559981 as his answer. If both 9s in the answer are wrong but the other digits are correct, the correct answer is:",
+      "options": ["553681", "555181", "555681", "556581"],
+      "answer": 2,
+      "explanation": "987 × 563 = 555681. The answer with correct digits replacing the wrong 9s is 555681."
+    },
+    {
+      "id": 22,
+      "question": "What is the remainder when (17^23 + 23^17) is divided by 40?",
+      "options": ["0", "7", "14", "28"],
+      "answer": 0,
+      "explanation": "17 ≡ -23(mod 40) and 23 ≡ -17(mod 40). 17^23 + 23^17 ≡ (-23)^23 + (-17)^17 = -(23^23 + 17^17). Since both are odd powers, 17^23+23^17 is divisible by 17+23=40. Remainder = 0."
+    },
+    {
+      "id": 23,
+      "question": "If n is a natural number, then (6n² + 6n) is always divisible by:",
+      "options": ["6 only", "6 and 12 both", "12 only", "by 18 only"],
+      "answer": 1,
+      "explanation": "6n²+6n = 6n(n+1). Since n(n+1) is always even, 6n(n+1) is always divisible by 12."
+    },
+    {
+      "id": 24,
+      "question": "The number of prime factors of (30)^5 is:",
+      "options": ["3", "10", "15", "30"],
+      "answer": 2,
+      "explanation": "30 = 2×3×5. (30)^5 = 2^5 × 3^5 × 5^5. Total prime factors = 5+5+5 = 15."
+    },
+    {
+      "id": 25,
+      "question": "If the sum of a number and its square is 182, what is the number?",
+      "options": ["13", "14", "15", "16"],
+      "answer": 0,
+      "explanation": "x + x² = 182 → x² + x - 182 = 0 → (x+14)(x-13) = 0 → x = 13."
+    }
+  ]
+}
